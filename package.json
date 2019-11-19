@@ -14,7 +14,7 @@
     "prepublishOnly": "npm run dependency-check"
   },
   "dependencies": {
-    "deferred-leveldown": "~5.3.0",
+    "deferred-leveldown": "github:level/deferred-leveldown#import-buffer",
     "level-errors": "~2.0.0",
     "level-iterator-stream": "~4.0.0",
     "level-supports": "~1.0.0",
