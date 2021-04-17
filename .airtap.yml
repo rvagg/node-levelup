@@ -2,18 +2,8 @@ providers:
   - airtap-sauce
 
 browsers:
-  - name: chrome
-  - name: firefox
-  - name: safari
-    version: 12..latest
-  - name: ios_saf
-    version: 12..latest
-  # TODO: look into android 10 failure
   - name: chrome for android
-    version: 6..9
-  - name: chrome for android
-    version: 11
-  - name: msedge
+    version: 10
 
 presets:
   local:
